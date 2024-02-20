@@ -1,7 +1,7 @@
-SPW-AzureGlobalNetHub
+Azure Project Epimoni
 
 Project Overview:
-"SPW-AzureGlobalNetHub" is a hands-on project focused on deploying a globally peered network using Microsoft Azure. This project demonstrates the use of Azure Resource Manager (ARM) templates for efficient deployment and configuration of Azure resources, including Virtual Machine Scale Sets (VMSS), autoscaling, and load balancing.
+"Epimoni" is a hands-on project focused on deploying a globally peered network using Microsoft Azure. This project demonstrates the use of Azure Resource Manager (ARM) templates for efficient deployment and configuration of Azure resources, including Network infrastructure, Virtual Machine Scale Sets (VMSS), autoscaling, and load balancing.
 
 Objectives:
 Deploy and manage a globally peered network in Azure.
@@ -25,13 +25,17 @@ Repository Structure:
 Getting Started:
 
 Progress and Updates:
-Completed initial setup of network infrastructure using ARM templates.
+Completed initial setup of network infrastructure using ARM templates (VNets, Subnets, NSGs, Local Peering, Global Peering, etc.)
 
 
 Challenges and Learnings:
 Establishing VNet Peering locally and globally within JSON templates
+Learning to "nest" templates
+Creating a script to deploy ARM templates in a specific order (due to dependencies)
 
 Future Enhancements:
+Storage, Compute, and Security resources to be configured
+
 
 Contact:
 Name: Sean Wadman
