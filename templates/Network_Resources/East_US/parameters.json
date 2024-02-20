@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnet1Name": {
+            "value": "Eus-VNet1"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "subnet1Prefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnet1Name": {
+            "value": "Eus-Subnet1"
+        },
+        "subnet2Prefix": {
+            "value": "10.0.1.0/24"
+        },
+        "subnet2Name": {
+            "value": "Eus-Subnet2"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "vnet2Name": {
+            "value": "Eus-VNet2"
+        },
+        "vnet2AddressPrefix": {
+            "value": "192.168.0.0/16"
+        },
+        "subnet3Prefix": {
+            "value": "192.168.0.0/24"
+        },
+        "subnet4Prefix": {
+            "value": "192.168.1.0/24"
+        },
+        "nsgNameSubnet1VNet1": {
+            "value": "NSG-Subnet1-VNet1"
+        },
+        "nsgNameSubnet2VNet1": {
+            "value": "NSG-Subnet2-VNet1"
+        },
+        "nsgNameSubnet1VNet2": {
+            "value": "NSG-Subnet1-VNet2"
+        },
+        "nsgNameSubnet2VNet2": {
+            "value": "NSG-Subnet2-VNet2"
+        }
+    }
+        
+}
+

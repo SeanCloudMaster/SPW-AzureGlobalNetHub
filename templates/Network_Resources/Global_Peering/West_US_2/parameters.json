@@ -1,0 +1,16 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "localVNetName": {
+          "value": "Wus2-VNet1"
+        },
+        "remoteVNetName": {
+          "value": "Eus-VNet1"
+        },
+        "remoteVNetResourceGroup": {
+          "value": "epimoni-eastus-dev"
+        }
+      }
+  }
+  

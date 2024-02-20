@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "localVNetName": {
+        "type": "string"
+      },
+      "remoteVNetName": {
+        "type": "string"
+      },
+      "remoteVNetResourceGroup": {
+        "type": "string"
+      }
+    },
+    "resources": [
+      {
+        "type": "Microsoft.Network/virtualNetworks/virtualNetworkPeerings",
+        "apiVersion": "2021-05-01",
+        "name": "[concat(parameters('localVNetName'), '/', parameters('localVNetName'), 'to', parameters('remoteVNetName'))]",
+        "location": "westus2",
+        "properties": {
+          "allowVirtualNetworkAccess": true,
+          "allowForwardedTraffic": true,
+          "allowGatewayTransit": false,
+          "useRemoteGateways": false,
+          "remoteVirtualNetwork": {
+            "id": "[resourceId(parameters('remoteVNetResourceGroup'), 'Microsoft.Network/virtualNetworks', parameters('remoteVNetName'))]"
+          }
+        }
+      }
+    ]
+  }
+  

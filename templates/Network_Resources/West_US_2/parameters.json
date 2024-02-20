@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vnet1Name": {
+            "value": "Wus2-VNet1"
+        },
+        "vnetAddressPrefix": {
+            "value": "172.16.0.0/16"
+        },
+        "subnet1Prefix": {
+            "value": "172.16.0.0/24"
+        },
+        "subnet1Name": {
+            "value": "Wus2-Subnet1"
+        },
+        "subnet2Prefix": {
+            "value": "172.16.1.0/24"
+        },
+        "subnet2Name": {
+            "value": "Wus2-Subnet2"
+        },
+        "location": {
+            "value": "westus2"
+        },
+        "nsgNameSubnet1VNet1": {
+            "value": "NSG-Subnet1-VNet1"
+        },
+        "nsgNameSubnet2VNet1": {
+            "value": "NSG-Subnet2-VNet1"
+        }
+    }
+}
