@@ -1,1 +1,2 @@
-# templates
+ARM templates
+Bicep files
