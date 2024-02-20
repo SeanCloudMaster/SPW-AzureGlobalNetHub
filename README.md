@@ -23,18 +23,15 @@ Repository Structure:
 /templates - ARM and Bicep templates used for resource deployments
 
 Getting Started:
-(Instructions on how to use or test your project. Include steps to clone the repository, any installation steps, and how to run the project.)
 
 Progress and Updates:
-Week 1: Completed initial setup of network infrastructure using ARM templates.
-Week 2: Implemented load balancing and began integration of VMSS for autoscaling.
-Week 3: Optimized resource deallocation strategies and finalized configurations.
+Completed initial setup of network infrastructure using ARM templates.
+
 
 Challenges and Learnings:
-(Discuss any challenges faced, how you overcame them, and what you learned from this project. This section can be updated regularly as you progress.)
+Establishing VNet Peering locally and globally within JSON templates
 
 Future Enhancements:
-(Outline any planned enhancements or features you intend to add to the project.)
 
 Contact:
 Name: Sean Wadman
